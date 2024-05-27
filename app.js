@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-    res.end('<h1>하하핳 하하</h1>');
+    res.end('<h1>Hello nodejs project</h1>');
 });
 
 const server = http.createServer(app);
