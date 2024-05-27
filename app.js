@@ -6,8 +6,9 @@ app.get('/', (req, res) => {
     res.end('<h1>Hello world!</h1>');
 });
 
+// local에서 수정 하였다.
 app.get('/home', (req, res) => {
-    res.end('<h1>Hello nodejs project</h1>');
+    res.end('<h1>Hello nodejs project 22222</h1>');
 });
 
 const server = http.createServer(app);
